@@ -1,0 +1,35 @@
+{
+  "name": "stag",
+  "version": "1.0.0",
+  "description": "Stagered object for isometric map",
+  "main": "index.js",
+  "author": "Luc MARONGIU",
+  "license": "Proprietary",
+  "scripts": {},
+  "dependencies": {
+    "pixi.js": "^4.7.0",
+    "pixi-spine": "^1.5.16"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-canvas-mock": "^1.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-canvas-mock"
+    ],
+    "testRegex": ".*Test.js$",
+    "roots": [
+      "./"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
+  }
+}
